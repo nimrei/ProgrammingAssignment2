@@ -10,8 +10,8 @@
 #     and calculating its inverse
 #       set() - sets the value of the matrix
 #       get() - gets the value of the matrix
-#       setinverse() - sets the inverse of the matrix 
-#       getinverse() - gets the inverse of the matrix
+#       setInverse() - sets the inverse of the matrix 
+#       getInverse() - gets the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
   x_inverse <- NULL
   set <- function(y) {
